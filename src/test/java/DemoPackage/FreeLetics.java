@@ -16,8 +16,7 @@ public class FreeLetics {
 	
 @Test
     public void freeletics() throws InterruptedException {
-	//public static void main(String[] args) throws InterruptedException{
-		// TODO Auto-generated method stub
+	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ANKITA\\eclipse-workspace\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
