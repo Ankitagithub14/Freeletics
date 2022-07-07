@@ -6,6 +6,8 @@
       <class name="DemoPackage.FreeLetics">
         <methods>
           <include name="freeletics"/>
+          <include name="close"/>
+          <include name="initialize"/>
         </methods>
       </class> <!-- DemoPackage.FreeLetics -->
     </classes>
