@@ -1,6 +1,6 @@
 #Freeletics Assignment 
 
-#####Part I : Use Selenium WebDriver
+#####Part I : Use Selenium WebDriver 
 
 Overview
   
@@ -11,14 +11,27 @@ Overview
  1. open eclipse : Version: 2022-06 (4.24.0)
  2. Create Maven project : File-->-->New-->Project-->Maven Project
  3. Maven Project structure created at extreme left side of the eclipse under project explorer.
- 4. created base class under program package for src/main/java: includes browser detail.
- 5. created package name Demo Package under src/test/java.
- 6. created main class in DemoPackage named as FreeLetics.
- 7. created commonMethod class under helper package : include methods like the QA Engineer job post , role description and many more 
+ 4. Created base class : includes browser detail.
+ 5. Created commonMethod class under helper package : include methods like the QA Engineer job post , role description and many more 
  as given above under overview.
+ 6. Created main class 
+ 7. Run the scenarios with testng
+ 
+ 
+ 
+##### How To Run from command Line
+ 1. install Maven in Window PC
+ 2. set the environment variable by(creating MAVEN_HOME and add the maven path and under PATH name give the  maven path till bin)
+ 3. command line check for maven version: mvn -version
+ 4. in command line go to your test folder(command cd <test folder path> press enter /or open test folder and then open the command line
+ 5. mvn clear
+ 6. mvn test
+ 
+ 
+ 
   
 #####Specific Information 
-1. Java version "18.0.1.1" 2022-04-22
+1. Java version "18.0.1.1" 
 2. Testng dependency added in pom.xml
 3. Selenium java dependency added in pom.xml
 
