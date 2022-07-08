@@ -49,7 +49,7 @@ public class commonMethod {
 
 		driver.findElement(careerlink).click();
 		logger.info("*************checklink*****" + driver.findElement(careerlink).isEnabled());
-		//Assert.assertTrue(driver.findElement(careerlink).isEnabled());
+		
 		return selectForQA();
 	}
 

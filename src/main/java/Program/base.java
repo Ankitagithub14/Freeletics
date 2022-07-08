@@ -18,8 +18,7 @@ public WebDriver InitlializeDriver() throws IOException
 	FileInputStream fis = new FileInputStream("src\\main\\java\\Program\\data.properties");
 	prop.load(fis);
     System.setProperty(prop.getProperty("chromeDriver"), "driver/chromedriver.exe");
-    	//chrome driver create folder here
-		WebDriver driver= new ChromeDriver();
+    	WebDriver driver= new ChromeDriver();
 		return driver;	
  
 }
