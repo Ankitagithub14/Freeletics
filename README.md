@@ -1,13 +1,13 @@
 #Freeletics Assignment 
 
-#####Part I : Use Selenium WebDriver 
+#####   Part I : Use Selenium WebDriver 
 
 Overview
   
  Open freeletics website in a chrome browser and select the QA Engineer job post. Validate the role description , 
  job responsibilities, profile and click to apply now. And also check form page should open in other tab.
  
-#####Code Structure
+##### Code Structure
  1. open eclipse : Version: 2022-06 (4.24.0)
  2. Create Maven project : File-->-->New-->Project-->Maven Project
  3. Maven Project structure created at extreme left side of the eclipse under project explorer.
@@ -30,7 +30,7 @@ Overview
  
  
   
-#####Specific Information 
+##### Specific Information 
 1. Java version "18.0.1.1" 
 2. Testng dependency added in pom.xml
 3. Selenium java dependency added in pom.xml
@@ -39,7 +39,7 @@ Overview
 
 
 
-#####Part II : Taking the Appium
+##### Part II : Taking the Appium
  
  1.Which parts of the code you provided would need to be adapted to run the same
    tests in an Android phone, using the same browser, in the tool you chose?
